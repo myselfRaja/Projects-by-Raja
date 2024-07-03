@@ -1,0 +1,60 @@
+/* src/NoteList.css */
+.note-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .note {
+    background-color: #f0f0f0;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .note p {
+    margin: 0;
+    font-size: em;
+    font-weight: bold;
+    text-transform: capitalize;
+    flex-grow: 1;
+  }
+  
+  .note-buttons {
+    display: flex;
+  }
+  
+  .note-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .note-buttons button:hover {
+    opacity: 0.8;
+  }
+  
+  .note-buttons button:nth-child(1) {
+    background-color: #06c031;
+    color: #fff;
+  }
+  
+  .note-buttons button:nth-child(2) {
+    background-color: #ff031c;
+    color: #fff;
+  }
+  
+  .note-buttons button:nth-child(1):hover{
+    background-color: rgb(12, 54, 7);
+  }
+  .note-buttons button:nth-child(2):hover{
+    background-color: rgb(60, 5, 5);
+    border: 1px solid rgb(17, 17, 103);
+  }

@@ -1,0 +1,29 @@
+/* src/NoteForm.css */
+.note-form {
+    margin-bottom: 20px;
+  }
+  
+  .note-form textarea {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    border: 1px solid #d4b503;
+    border-radius: 5px;
+  }
+  
+  .note-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #2444e3;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .note-form button:hover {
+    background-color: #21a1f1;
+  }
+  
